@@ -24,7 +24,7 @@ export default function WebSearchResults({ results }) {
           <p
             className="text-gray-600"
           >
-            {Parser(result.htmlSnippet)}
+            {Parser(result.htmlSnippet || '')}
           </p>
         </div>
       ))}
